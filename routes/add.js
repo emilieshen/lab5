@@ -10,7 +10,6 @@ exports.addFriend = function(req, res) { 
 		'imageURL': 'http://lorempixel.com/400/400/people'
 	}
 
-	console.log(newFriend.name);
-	console.log(newFriend.description);
+	console.log(newFriend);
 	data["friends"].push(newFriend);
  }

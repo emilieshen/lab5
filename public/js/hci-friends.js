@@ -6,7 +6,6 @@ $(document).ready(function() {
 
 	$(".personName").click(function(e){
 		e.preventDefault();
-		console.log();
 
 		var newtext = anagrammedName($(this).text());
 		$(this).text(newtext);

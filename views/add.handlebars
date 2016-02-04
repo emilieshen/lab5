@@ -24,10 +24,13 @@
 
 <body>
 <div class="container">
+
+	<p>New friend added!</p>
+
 	<h1>My HCI Friends</h1>
 
 	{{#each friends}}
-	<div class="friends" id="{{id}}">
+	<div class="friends">
 		<img class="img-responsive" src="{{imageURL}}">
 		<h3 class="personName"><a href="#">{{name}}</a></h3>
 		<p>{{description}}</p>
